@@ -16,6 +16,7 @@ const STATUSES = {
 };
 
 export default function App() {
+  console.log("yolo")
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setFocusHistory] = useState([]);
 
